@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  LoggingViewController.h
 //  Lesson3
 //
 //  Created by Azat Almeev on 04.10.15.
 //  Copyright © 2015 Azat Almeev. All rights reserved.
 //
 
-#import "LoggingViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface ViewController : LoggingViewController
-
+@interface LoggingViewController : UIViewController
 
 @end
-

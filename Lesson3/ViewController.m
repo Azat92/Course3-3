@@ -7,21 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "DropDownTransition.h"
 
-@interface ViewController ()
+@interface ViewController () <UIViewControllerTransitioningDelegate>
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (IBAction)returnToRootPage:(UIStoryboardSegue *)sender {
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"NextSegue"]) {
+        UIViewController *dvc = segue.destinationViewController;
+        dvc.transitioningDelegate = self;
+        dvc.modalPresentationStyle = UIModalPresentationCustom;
+    }
+}
+
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    return [DropDownTransition new];
+}
+
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    return [DropDownTransition transitionForDismissing];
 }
 
 @end

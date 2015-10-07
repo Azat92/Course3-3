@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  Lesson3
 //
 //  Created by Azat Almeev on 04.10.15.
@@ -8,8 +8,6 @@
 
 #import "LoggingViewController.h"
 
-@interface ViewController : LoggingViewController
-
+@interface SecondViewController : LoggingViewController
 
 @end
-

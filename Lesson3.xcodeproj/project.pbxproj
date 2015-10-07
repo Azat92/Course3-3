@@ -13,6 +13,11 @@
 		AA27C46A1BC12B60004687F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA27C4681BC12B60004687F0 /* Main.storyboard */; };
 		AA27C46C1BC12B60004687F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA27C46B1BC12B60004687F0 /* Assets.xcassets */; };
 		AA27C46F1BC12B60004687F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA27C46D1BC12B60004687F0 /* LaunchScreen.storyboard */; };
+		AA27C4781BC13A82004687F0 /* DropDownTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AA27C4771BC13A82004687F0 /* DropDownTransition.m */; settings = {ASSET_TAGS = (); }; };
+		AA27C47B1BC13BE7004687F0 /* LoggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA27C47A1BC13BE7004687F0 /* LoggingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AA8FCAEC1BC47D57004C1BC1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8FCAEB1BC47D57004C1BC1 /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AAE890951BC1A7B100596DA3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE890941BC1A7B100596DA3 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AAE890981BC1AB1000596DA3 /* PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE890971BC1AB1000596DA3 /* PushTransition.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		AA27C46B1BC12B60004687F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA27C46E1BC12B60004687F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA27C4701BC12B60004687F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA27C4761BC13A82004687F0 /* DropDownTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownTransition.h; sourceTree = "<group>"; };
+		AA27C4771BC13A82004687F0 /* DropDownTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownTransition.m; sourceTree = "<group>"; };
+		AA27C4791BC13BE7004687F0 /* LoggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingViewController.h; sourceTree = "<group>"; };
+		AA27C47A1BC13BE7004687F0 /* LoggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingViewController.m; sourceTree = "<group>"; };
+		AA8FCAEA1BC47D57004C1BC1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		AA8FCAEB1BC47D57004C1BC1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		AAE890931BC1A7B100596DA3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AAE890941BC1A7B100596DA3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AAE890961BC1AB1000596DA3 /* PushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransition.h; sourceTree = "<group>"; };
+		AAE890971BC1AB1000596DA3 /* PushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +73,19 @@
 		AA27C45E1BC12B60004687F0 /* Lesson3 */ = {
 			isa = PBXGroup;
 			children = (
-				AA27C4621BC12B60004687F0 /* AppDelegate.h */,
-				AA27C4631BC12B60004687F0 /* AppDelegate.m */,
+				AA27C4681BC12B60004687F0 /* Main.storyboard */,
+				AA27C4791BC13BE7004687F0 /* LoggingViewController.h */,
+				AA27C47A1BC13BE7004687F0 /* LoggingViewController.m */,
 				AA27C4651BC12B60004687F0 /* ViewController.h */,
 				AA27C4661BC12B60004687F0 /* ViewController.m */,
-				AA27C4681BC12B60004687F0 /* Main.storyboard */,
-				AA27C46B1BC12B60004687F0 /* Assets.xcassets */,
-				AA27C46D1BC12B60004687F0 /* LaunchScreen.storyboard */,
-				AA27C4701BC12B60004687F0 /* Info.plist */,
+				AAE890931BC1A7B100596DA3 /* SecondViewController.h */,
+				AAE890941BC1A7B100596DA3 /* SecondViewController.m */,
+				AA8FCAEA1BC47D57004C1BC1 /* ThirdViewController.h */,
+				AA8FCAEB1BC47D57004C1BC1 /* ThirdViewController.m */,
+				AA27C4761BC13A82004687F0 /* DropDownTransition.h */,
+				AA27C4771BC13A82004687F0 /* DropDownTransition.m */,
+				AAE890961BC1AB1000596DA3 /* PushTransition.h */,
+				AAE890971BC1AB1000596DA3 /* PushTransition.m */,
 				AA27C45F1BC12B60004687F0 /* Supporting Files */,
 			);
 			path = Lesson3;
@@ -74,6 +94,11 @@
 		AA27C45F1BC12B60004687F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA27C4621BC12B60004687F0 /* AppDelegate.h */,
+				AA27C4631BC12B60004687F0 /* AppDelegate.m */,
+				AA27C46B1BC12B60004687F0 /* Assets.xcassets */,
+				AA27C46D1BC12B60004687F0 /* LaunchScreen.storyboard */,
+				AA27C4701BC12B60004687F0 /* Info.plist */,
 				AA27C4601BC12B60004687F0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE890951BC1A7B100596DA3 /* SecondViewController.m in Sources */,
 				AA27C4671BC12B60004687F0 /* ViewController.m in Sources */,
+				AA8FCAEC1BC47D57004C1BC1 /* ThirdViewController.m in Sources */,
+				AA27C47B1BC13BE7004687F0 /* LoggingViewController.m in Sources */,
 				AA27C4641BC12B60004687F0 /* AppDelegate.m in Sources */,
+				AAE890981BC1AB1000596DA3 /* PushTransition.m in Sources */,
 				AA27C4611BC12B60004687F0 /* main.m in Sources */,
+				AA27C4781BC13A82004687F0 /* DropDownTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +330,7 @@
 				AA27C4751BC12B60004687F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
